@@ -53,23 +53,7 @@ table {
     border-spacing: 0; 
 }
 
-
-/* <--- lip CSS ---> */
-:root {
-    --lip-redColor: #FF9292;
-    --lip-blueColor: #92BDFF;
-    --lip-yellowColor: #FFD392;
-    --lip-greenColor: #94DF81;
-    --lip-whiteColor: #FAFAFA;
-    --lip-darkColor: #3A3A3A; 
-    --lip-fontFamily-Black: Inter, NotoSansJP-Black;
-    --lip-fontFamily-Bold: Inter, NotoSansJP-Bold;
-    --lip-fontFamily-Light: Inter, NotoSansJP-Light;
-    --lip-fontFamily-Medium: Inter, NotoSansJP-Medium;
-    --lip-fontFamily-Regular: Inter, NotoSansJP-Regular;
-    --lip-fontFamily-Thin: Inter, NotoSansJP-Thin;
-    font-family: var(--lip-fontFamily-Regular);
-}
+/* import fonts */
 
 @font-face {
     font-family: 'Inter';
@@ -98,6 +82,25 @@ table {
 @font-face {
     font-family: 'NotoSansJP-Thin';
     src: url(font/Noto_Sans_JP/NotoSansJP-Thin.otf);
+}
+
+
+/* <--- lip CSS ---> */
+
+:root {
+    --lip-redColor: #FF9292;
+    --lip-blueColor: #92BDFF;
+    --lip-yellowColor: #FFD392;
+    --lip-greenColor: #94DF81;
+    --lip-whiteColor: #FAFAFA;
+    --lip-darkColor: #3A3A3A; 
+    --lip-fontFamily-Black: Inter, NotoSansJP-Black;
+    --lip-fontFamily-Bold: Inter, NotoSansJP-Bold;
+    --lip-fontFamily-Light: Inter, NotoSansJP-Light;
+    --lip-fontFamily-Medium: Inter, NotoSansJP-Medium;
+    --lip-fontFamily-Regular: Inter, NotoSansJP-Regular;
+    --lip-fontFamily-Thin: Inter, NotoSansJP-Thin;
+    font-family: var(--lip-fontFamily-Regular);
 }
 
 h1 {
@@ -158,9 +161,34 @@ ul ul ul ul li::before {
     font-size: 20px;
     color: var(--lip-greenColor);
 }
+ol{
+    counter-reset: count 0;
+}
 ol li::before {
-    content: "number: ";
+    content: counter(count) ". ";
+    counter-increment: count 1;
     font-weight: bold;
     font-size: 20px;
-    color: rgb(44, 44, 44);
+    color: var(--lip-darkColor);
+}
+
+/* lip-class */
+
+.l-fontWeight-black {
+    font-family: var(--lip-fontFamily-Black);
+}
+.l-fontWeight-bold {
+    font-family: var(--lip-fontFamily-Bold);
+}
+.l-fontWeight-light {
+    font-family: var(--lip-fontFamily-Light);
+}
+.l-fontWeight-medium {
+    font-family: var(--lip-fontFamily-Medium);
+}
+.l-fontWeight-regular {
+    font-family: var(--lip-fontFamily-Regular);
+}
+.l-fontWeight-thin {
+    font-family: var(--lip-fontFamily-Thin);
 }
