@@ -10,8 +10,8 @@
   index.html にサンプルがあります。参考にしてみてください。  
 
  ### 使い方
-  GitHub の リポジトリ から全てのファイル (index.html lip-main.css README.md) をダウンロードします。  
-  point: (サイト構築に使用するのは lip-main.css だけです。)  
+  GitHub の リポジトリ から全てのファイル (index.html, lip(directly), README.md) をダウンロードします。  
+  point: (サイト構築に使用するのは lip ディレクトリ だけです。)  
   <br>
   lip-main.css を 構築しているHTML ファイルに読み込ませます。  
   <br>
@@ -25,7 +25,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- lip CSS -->
-        <link href="lip-main.css" rel="stylesheet">
+        <link href="lip/lip-main.css" rel="stylesheet">
 
         <title>example - Hello, world!</title>
     </head>
@@ -53,4 +53,3 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   ```
 
-  
