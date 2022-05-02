@@ -32,6 +32,8 @@
     </head>
     <body>
         <h1>Hello, world!</h1>
+
+        <script src="lip/lip.js"></script>
     </body>
   </html>
   ```
