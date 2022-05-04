@@ -34,7 +34,7 @@
 
     <div class="l-spacing-top"></div>
 
-    <h1 class="l-fontWeight-medium l-hedding1-red">Welcome to lip!</h1>
+    <h1 class="l-fontWeight-bold l-hedding1-red">Welcome to lip!</h1>
     <hr>
     <div class="l-spacing-top"></div>
     <div class="l-center">
@@ -47,113 +47,129 @@
         First, let's build a site that supports mobile.</p>
     
     <div class="l-spacing-top"></div>
-    
-    <h2 class="l-fontWeight-medium l-hedding1-red">Start lip</h2>
+    <br><br>
+
+    <h2 class="l-fontWeight-bold l-hedding1-red">Start lip</h2>
     <hr>
-    <p>まずは <code>github/gamma410</code> から lip をダウンロードしましょう。</p><p>その後 <code>lipディレクトリ</code> を自分のプロジェクトのルート配下に設置します。</p>
-    <p>早速プロジェクトに<code>lip.css</code>, <code>lip.js</code>を追加しましょう。</p>
-
-    <pre><code class="prettyprint">
-        .elem {
-          font-size: 16px;
-        }
-        </code></pre>
-  
-    <div class="l-spacing-top"></div>
-
-
-    <h2 class="l-fontWeight-medium l-hedding1-red">h1 ~ h6</h2>
-    <hr>
-
-    <h1>h1 - あいうえお</h1>
-    <h2>h2 - あいうえお</h2>
-    <h3>h3 - あいうえお</h3>
-    <h4>h4 - あいうえお</h4>
-    <h5>h5 - あいうえお</h5>
-    <h6>h6 - あいうえお</h6>
-    <p>p - あいうえお</p>
-    
-
-    <div class="l-spacing-top"></div>
-
-
-    <h2 class="l-fontWeight-black l-hedding1-red">ul-li</h2>
-    <hr>
-
-    <ul>
-        <li>ul / li</li>
-        <li>ul / li</li>
-        <li>ul / li</li>
-
-        <ul>
-            <li>ul / ul / li</li>
-            <li>ul / ul / li</li>
-            <li>ul / ul / li</li>
-        </ul>
-
-        <ul>
-            <ul>
-                <li>ul / ul / ul / li</li>
-                <li>ul / ul / ul / li</li>
-                <li>ul / ul / ul / li</li>
-            </ul>
-        </ul>
-
-        <ul>
-            <ul>
-                <ul>
-                    <li>ul / ul / ul / ul / li</li>
-                    <li>ul / ul / ul / ul / li</li>
-                    <li>ul / ul / ul / ul / li</li>
-                </ul>
-            </ul>
-        </ul>
-    </ul>
-    
-
-    <div class="l-spacing-top"></div>
-
-
-    <h2 class="l-fontWeight-black l-hedding1-red">ol-li</h2>
-    <hr>
-
-    <ol>
-        <li>ol / li</li>
-        <li>ol / li</li>
-        <li>ol / li</li>
-        <ol>
-            <li>ol / ol / li</li>
-            <li>ol / ol / li</li>
-            <li>ol / ol / li</li>
-            <ol>
-                <li>ol / ol / ol / li</li>
-                <li>ol / ol / ol / li</li>
-                <li>ol / ol / ol / li</li>
-                <ol>
-                    <li>ol / ol / ol / ol / li</li>
-                    <li>ol / ol / ol / ol / li</li>
-                    <li>ol / ol / ol / ol / li</li>
-                </ol>
-            </ol>
-        </ol>
-    </ol>
-
-
-    <div class="l-spacing-top"></div>
-
-
-    <h2 class="l-fontWeight-black l-hedding1-red">hr</h2>
-    <hr>
-    <span class="l-header-red">hr</span>
-    <div class="l-spacing-top"></div>
-    <div class="l-container">
-        <hr>
-    </div>
-
+    <p>まずは <code>github/gamma410</code> から lip をダウンロードしましょう。</p>
+    <p>その後 <code>lipディレクトリ</code> を自分のプロジェクトのルート配下に設置します。</p>
+    <p>早速プロジェクトに <code>lip.css</code>, <code>lip.js</code> を追加しましょう。</p><br>
+    <p>First, download the lip from <code>github / gamma410</code>.</p>
+    <p>Then place the <code>lip directory</code> under the root of your project.</p>
+    <p>Add <code>lip.css</code> and <code>lip.js</code> to your project right away.</p>
+    <pre><code class="prettyprint lang-html">
+        &lt;!doctype html&gt;
+        &lt;html lang=""&gt;
+        &lt;head&gt;
+            &lt;!-- required meta tags --&gt;
+            &lt;meta charset="utf-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+            <br>
+            &lt;!-- lip CSS --&gt;
+            &lt;link href="lip/lip.css" rel="stylesheet"&gt;
+            <br>
+            &lt;title&gt;example - Hello, world!&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Hello, world!&lt;/h1&gt;
+            <br>
+            &lt;!-- lip JavaScript --&gt;
+            &lt;script src="lip/lip.js"&gt;&lt;/script&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <br>
+    <h3 class="l-fontWeight-bold">CSS</h3>
+    <pre><code class="prettyprint lang-html">
+        &lt;!-- lip CSS --&gt;
+        &lt;link href="lip/lip.css" rel="stylesheet"&gt;
+    </code></pre>
+    <br>
+    <h3 class="l-fontWeight-bold">JavaScript</h3>
+    <pre><code class="prettyprint lang-html">
+        &lt;!-- lip JavaScript --&gt;
+        &lt;script src="lip/lip.js"&gt;&lt;/script&gt;
+    </code></pre>
 
     <div class="l-spacing-top"></div>
     <br><br>
 
+    <h2 class="l-fontWeight-bold l-hedding1-red">Customize</h2>
+    <hr>
+    <h3>Theme colors</h3>
+    <pre><code class="prettyprint lang-css">
+        :root {
+            --lip-redColor: #FF9292;
+            --lip-blueColor: #92BDFF;
+            --lip-yellowColor: #FFD392;
+            --lip-greenColor: #94DF81;
+            --lip-whiteColor: #FAFAFA;
+            --lip-greyColor: #939393; 
+            --lip-darkColor: #4d4d4d; 
+        }
+    </code></pre>
+    <br>
+    <div class="l-box" style="background: var(--lip-redColor);">
+        <h4><b>Red</b></h4>
+    </div>
+    <div class="l-box" style="background: var(--lip-blueColor);">
+        <h4><b>Blue</b></h4>
+    </div>
+    <div class="l-box" style="background: var(--lip-yellowColor);">
+        <h4><b>Yellow</b></h4>
+    </div>
+    <div class="l-box" style="background: var(--lip-greenColor);">
+        <h4><b>Green</b></h4>
+    </div>
+    <div class="l-box" style="background: var(--lip-whiteColor);">
+        <h4><b>White</b></h4>
+    </div>
+    <div class="l-box l-color-white" style="background: var(--lip-greyColor);">
+        <h4><b>Grey</b></h4>
+    </div>
+    <div class="l-box l-color-white" style="background: var(--lip-darkColor);">
+        <h4><b>Dark</b></h4>
+    </div>
+
+    <div class="l-spacing-top"></div>
+
+    <h3 class="l-hedding1-blue">class</h3>
+    <hr>
+    <ul>
+        <li>redTextColor: <b>.l-color-red</b></li>
+        <li>blueTextColor: <b>.l-color-blue</b></li>
+        <li>yellowTextColor: <b>.l-color-yellow</b></li>
+        <li>greenTextColor: <b>.l-color-green</b></li>
+        <li>whiteTextColor: <b>.l-color-white</b></li>
+        <li>greyTextColor: <b>.l-color-grey</b></li>
+        <li>darkTextColor: <b>.l-color-dark</b></li>
+    </ul>
+
+    <ul>
+        <li>redBackgroundColor: <b>.l-bg-red</b></li>
+        <li>blueBackgroundColor: <b>.l-bg-blue</b></li>
+        <li>yellowBackgroundColor: <b>.l-bg-yellow</b></li>
+        <li>greenBackgroundColor: <b>.l-bg-green</b></li>
+        <li>whiteBackgroundColor: <b>.l-bg-white</b></li>
+        <li>greyBackgroundColor: <b>.l-bg-grey</b></li>
+        <li>darkBackgroundColor: <b>.l-bg-dark</b></li>
+    </ul>
+
+    <div class="l-spacing-top"></div>
+    <br><br>
+
+    <h2 class="l-fontWeight-black l-hedding1-red">button</h2>
+    <hr>
+    <button class="l-btn l-bg-red">Button</button>
+    <button class="l-btn l-bg-blue">Button</button>
+    <button class="l-btn l-bg-yellow">Button</button>
+    <button class="l-btn l-bg-green">Button</button>
+    <button class="l-btn l-bg-white">Button</button>
+    <button class="l-btn l-bg-grey l-color-white">Button</button>
+    <button class="l-btn l-bg-dark l-color-white">Button</button>
+
+    <div class="l-spacing-top"></div>
+    <br><br>
     <h2 class="l-fontWeight-black l-hedding1-red">headerMenu</h2>
     <hr>
 
@@ -237,26 +253,6 @@
     </header>
 
     <div class="l-spacing-top"></div>
-    <span class="l-header-grey">grey</span>
-    <header class="l-header-grey">
-        <div class="header_contents">
-            <h1>headerMenu</h1>
-            <div class="responsive_btn">
-                <div class="menu_line"></div>
-                <div class="menu_line"></div>
-                <div class="menu_line"></div>
-            </div>
-            <nav class="header_nav">
-                <ul class="header_nav_lists">
-                    <li><a class="nav_link" href="">About</a></li>
-                    <li><a class="nav_link" href="">Works</a></li>
-                    <li><a class="nav_link" href="">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <div class="l-spacing-top"></div>
     <span class="l-header-white">white</span>
     <header class="l-header-white">
         <div class="header_contents-dake">
@@ -276,36 +272,92 @@
         </div>
     </header>
 
+    <div class="l-spacing-top"></div>
+    <span class="l-header-grey l-color-white">grey</span>
+    <header class="l-header-grey">
+        <div class="header_contents">
+            <h1>headerMenu</h1>
+            <div class="responsive_btn">
+                <div class="menu_line"></div>
+                <div class="menu_line"></div>
+                <div class="menu_line"></div>
+            </div>
+            <nav class="header_nav">
+                <ul class="header_nav_lists">
+                    <li><a class="nav_link" href="">About</a></li>
+                    <li><a class="nav_link" href="">Works</a></li>
+                    <li><a class="nav_link" href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <div class="l-spacing-top"></div>
+    <span class="l-header-dark l-color-white">dark</span>
+    <header class="l-header-dark">
+        <div class="header_contents">
+            <h1>headerMenu</h1>
+            <div class="responsive_btn">
+                <div class="menu_line"></div>
+                <div class="menu_line"></div>
+                <div class="menu_line"></div>
+            </div>
+            <nav class="header_nav">
+                <ul class="header_nav_lists">
+                    <li><a class="nav_link" href="">About</a></li>
+                    <li><a class="nav_link" href="">Works</a></li>
+                    <li><a class="nav_link" href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <div class="l-spacing-top"></div>
+    
 
-    <h2 class="l-fontWeight-black l-hedding1-red">containerClass</h2>
+    <h2 class="l-fontWeight-black l-hedding1-red">container</h2>
     <hr>
     <span class="l-header-red">.l-container</span>
     <div class="l-container" style="margin-top:10px;margin-bottom:30px;height:100px;background-color: rgb(255, 255, 255);">
     </div>
 
-
+    <h3 class="l-hedding2-blue">class</h3>
+    <hr>
+    <ul>
+        <li>container: <b>.l-container</b></li>
+    </ul>
 
     <div class="l-spacing-top"></div>
+    <br><br>
 
 
-    <h2 class="l-fontWeight-black l-hedding1-red">fontWeightClass</h2>
+    <h2 class="l-fontWeight-black l-hedding1-red">fontWeight</h2>
     <hr>
 
-    <h1 class="l-fontWeight-black">あいうえお</h1>
-    <h1 class="l-fontWeight-bold">あいうえお</h1>
-    <h1 class="l-fontWeight-medium">あいうえお</h1>
-    <h1 class="l-fontWeight-regular">あいうえお</h1>
-    <h1 class="l-fontWeight-light">あいうえお</h1>
-    <h1 class="l-fontWeight-thin">あいうえお</h1>
-
+    <h1 class="l-fontWeight-black">こんにちは Hello</h1>
+    <h1 class="l-fontWeight-bold">こんにちは Hello</h1>
+    <h1 class="l-fontWeight-medium">こんにちは Hello</h1>
+    <h1 class="l-fontWeight-regular">こんにちは Hello</h1>
+    <h1 class="l-fontWeight-light">こんにちは Hello</h1>
+    <h1 class="l-fontWeight-thin">こんにちは Hello</h1>
 
     <div class="l-spacing-top"></div>
 
+    <h3 class="l-hedding2-blue">class</h3>
+    <hr>
+    <ul>
+        <li>fontWeight-Black <b>.l-fontWeight-black</b></li>
+        <li>fontWeight-Bold: <b>.l-fontWeight-bold</b></li>
+        <li>fontWeight-Medium: <b>.l-fontWeight-medium</b></li>
+        <li>fontWeight-Regular: <b>.l-fontWeight-regular</b></li>
+        <li>fontWeight-Light: <b>.l-fontWeight-light</b></li>
+        <li>fontWeight-Thin: <b>.l-fontWeight-thin</b></li>
+    </ul>
 
-    <h2 class="l-fontWeight-black l-hedding1-red">heddingDecorationClass</h2>
+    <div class="l-spacing-top"></div>
+    <div class="l-spacing-top"></div>
+
+    <h2 class="l-fontWeight-black l-hedding1-red">heddingDecoration</h2>
     <hr>
 
     <h1 class="l-hedding1-red">red</h1>
@@ -313,19 +365,60 @@
     <h1 class="l-hedding1-yellow">yellow</h1>
     <h1 class="l-hedding1-green">green</h1>
     <h1 class="l-hedding1-white">white</h1>
+    <h1 class="l-hedding1-grey">grey</h1>
     <h1 class="l-hedding1-dark">dark</h1>
+
+    <div class="l-spacing-top"></div>
+
+    <h3 class="l-hedding1-blue">class</h3>
+    <hr>
+    <ul>
+        <li>heddingRed (1): <b>.l-hedding1-red</b></li>
+        <li>heddingBlue (1): <b>.l-hedding1-blue</b></li>
+        <li>HeddingYellow (1): <b>.l-hedding1-yellow</b></li>
+        <li>HeddingGreen (1): <b>.l-hedding1-green</b></li>
+        <li>HeddingWhite (1): <b>.l-hedding1-white</b></li>
+        <li>HeddingGrey (1): <b>.l-hedding1-grey</b></li>
+        <li>HeddingDark (1): <b>.l-hedding1-dark</b></li>
+    </ul>
+
+    <div class="l-spacing-top"></div>
+    <br><br>
+
     <h2 class="l-hedding2-red">red</h2>
     <h2 class="l-hedding2-blue">blue</h2>
     <h2 class="l-hedding2-yellow">yellow</h2>
     <h2 class="l-hedding2-green">green</h2>
     <h2 class="l-hedding2-white">white</h2>
+    <h2 class="l-hedding2-grey">grey</h2>
     <h2 class="l-hedding2-dark">dark</h2>
 
+    <div class="l-spacing-top"></div>
     
+    <h3 class="l-hedding1-blue">class</h3>
+    <hr>
+    <ul>
+        <li>heddingRed (2): <b>.l-hedding2-red</b></li>
+        <li>heddingBlue (2): <b>.l-hedding2-blue</b></li>
+        <li>HeddingYellow (2): <b>.l-hedding2-yellow</b></li>
+        <li>HeddingGreen (2): <b>.l-hedding2-green</b></li>
+        <li>HeddingWhite (2): <b>.l-hedding2-white</b></li>
+        <li>HeddingGrey (2): <b>.l-hedding2-grey</b></li>
+        <li>HeddingDark (2): <b>.l-hedding2-dark</b></li>
+    </ul>
+
+    <div class="l-spacing-top"></div>
+    <br><br>
+
     </div>
 
     <div class="l-spacing-bottom"></div>
-
+    <hr>
+    <div class="l-container">
+    <br><br>
+    <small>(c) Copyright 2022 lip @gamma_410</small>
+    <br><br><br><br>
+    </div>
     <script src="lip/lip.js"></script>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
   </body>
