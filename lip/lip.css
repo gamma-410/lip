@@ -292,26 +292,38 @@ p code {
 .l-hedding2-red::before {
     content: "# ";
     color: var(--lip-redColor);
+    font-size: 23px;
+    font-weight: bold;
 }
 .l-hedding2-blue::before {
     content: "# ";
     color: var(--lip-blueColor);
+    font-size: 23px;
+    font-weight: bold;
 }
 .l-hedding2-yellow::before {
     content: "# ";
     color: var(--lip-yellowColor);
+    font-size: 23px;
+    font-weight: bold;
 }
 .l-hedding2-green::before {
     content: "# ";
     color: var(--lip-greenColor);
+    font-size: 23px;
+    font-weight: bold;
 }
 .l-hedding2-white::before {
     content: "# ";
     color: var(--lip-whiteColor);
+    font-size: 23px;
+    font-weight: bold;
 }
 .l-hedding2-dark::before {
     content: "# ";
     color: var(--lip-darkColor);
+    font-size: 23px;
+    font-weight: bold;
 }
 
 /* l-hedder */
@@ -348,7 +360,7 @@ p code {
 }
 .header_contents {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1250px;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -357,7 +369,7 @@ p code {
 }
 .header_contents-dake {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1250px;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -458,4 +470,16 @@ p code {
 }
 .menu_active {
     right: 0;
+}
+
+/* left, right, center */
+
+.l-left {
+    text-align: left;
+}
+.l-right {
+    text-align: right;
+}
+.l-center {
+    text-align: center;
 }
