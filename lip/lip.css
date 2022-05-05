@@ -222,6 +222,9 @@ p code {
     color: #FAFAFA;
     padding: 2px;
 }
+br {
+    margin: 20px 0;
+}
 
 /* lip-class */
 
@@ -596,4 +599,7 @@ p code {
     font-size: 20px;
     padding: 12px;
     border-radius: 15px;
+}
+.l-btn-max {
+    width: 100%;
 }
