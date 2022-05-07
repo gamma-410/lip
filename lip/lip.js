@@ -1,3 +1,19 @@
+// accordion-menu
+const menu = document.querySelectorAll(".js-menu");
+
+function toggle() {
+  const content = this.nextElementSibling;
+  this.classList.toggle("is-active");
+  content.classList.toggle("is-open");
+}
+
+for (let i = 0; i < menu.length; i++) {
+  menu[i].addEventListener("click", toggle);
+}
+
+
+
+
 // header-script
 const responsive_menu_btn = document.querySelector('.responsive_btn');
 responsive_menu_btn.addEventListener('click', menuToggle);

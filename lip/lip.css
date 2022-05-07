@@ -165,7 +165,7 @@ h6 {
 }
 p {
     line-height: 20px;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.3em;
 }
 b {
     font-family: var(--lip-fontFamily-Bold);
@@ -223,7 +223,7 @@ p code {
     padding: 2px;
 }
 br {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 /* lip-class */
@@ -495,7 +495,7 @@ br {
       position: relative;
     }
     .header_nav {
-      background: #323232;
+      background: var(--lip-darkColor);
       width: 100%;
       height: 100vh;
       padding: 80px 0 0 0;
@@ -508,10 +508,20 @@ br {
       display: block;
       text-align: center;
     }
+    .header_nav_lists-dake {
+        color: var(--lip-whiteColor);
+        display: block;
+        text-align: center;
+      }
     .header_nav_lists li {
       margin: 0 0 40px;
       text-align: center;
     }
+    .header_nav_lists-dake li {
+        color: var(--lip-whiteColor);
+        margin: 0 0 40px;
+        text-align: center;
+      }
     .nav_link {
       font-size: 20px;
     }
@@ -519,6 +529,7 @@ br {
 .menu_active {
     right: 0;
 }
+
 
 /* left, right, center */
 
@@ -532,6 +543,7 @@ br {
     text-align: center;
 }
 
+
 /* l-box */
 
 .l-box {
@@ -542,6 +554,7 @@ br {
     border-radius: 3px;
     margin-bottom: 20px;
 }
+
 
 /* textColor */
 
@@ -592,6 +605,7 @@ br {
     background-color: var(--lip-darkColor);
 }
 
+
 /* l-btn */
 
 .l-btn {
@@ -602,4 +616,114 @@ br {
 }
 .l-btn-max {
     width: 100%;
+}
+
+
+/* l-accordion */
+  
+.l-accordion {
+    width: 100%;
+    margin: 0 auto;
+}
+section {
+    margin-top: 30px;
+}  
+.menu {
+    background-color: var(--lip-redColor);
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.menu:hover,
+.menu:active,
+.menu.is-active {
+    background-color: var(--lip-greenColor);
+}
+.contents {
+    background-color: var(--lip-whiteColor);
+    text-align: center;
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition-duration: 0.4s;
+}
+.contents.is-open {
+    margin-bottom: 10px;
+    border: 0.3px solid var(--lip-greyColor);
+    padding: 10px;
+    line-height: normal;
+    height: auto;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+
+/* l-tabs */
+
+.l-tabs {
+    width: 100%;
+}
+ 
+.l-tabs input {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+}
+ 
+.btn {
+    background: var(--lip-whiteColor);
+    color: var(--lip-darkColor);
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 13px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    opacity: 0.8;
+    transition: all 0.4s;
+    width:25%;
+    border-bottom:5px var(--lip-redColor) solid;
+    border-top-right-radius:4px;
+    border-top-left-radius:4px;
+    box-sizing: border-box; 
+}
+.l-tabs input:checked + label {
+    color: var(--lip-whiteColor);
+    width: 25%;
+    background: var(--lip-redColor);
+}
+.tabs-container {
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 100px;
+    background: var(--lip-whiteColor);
+}
+.tab-1 ,
+.tab-2,
+.tab-3,
+.tab-4 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s;
+}
+.btn-1:checked ~ .tabs-container .tab-1 ,
+.btn-2:checked ~ .tabs-container .tab-2,
+.btn-3:checked ~ .tabs-container .tab-3,
+.btn-4:checked ~ .tabs-container .tab-4 {
+    position: relative;
+    visibility: visible;
+    top: 0;
+    left: 0;
+    opacity: 1;
 }
