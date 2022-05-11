@@ -610,8 +610,8 @@ br {
 
 .l-btn {
     border: none;
-    font-size: 20px;
-    padding: 12px;
+    font-size: 16px;
+    padding: 11px;
     border-radius: 15px;
 }
 .l-btn-max {
@@ -726,4 +726,10 @@ section {
     top: 0;
     left: 0;
     opacity: 1;
+}
+
+/* l-border-radius */
+
+.l-border-radius {
+    border-radius: 25px;
 }
