@@ -741,6 +741,8 @@ section {
 }
 
 .l-input-red {
+    padding: 10px;
+    box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -751,6 +753,8 @@ section {
     border-bottom: var(--lip-redColor) 3px solid;
 }
 .l-textarea-red {
+    padding: 10px;
+    box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -761,6 +765,8 @@ section {
     resize: none;
 }
 .l-input-blue {
+    padding: 10px;
+    box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -771,6 +777,8 @@ section {
     border-bottom: var(--lip-blueColor) 3px solid;
 }
 .l-textarea-blue {
+    padding: 10px;
+    box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -781,6 +789,8 @@ section {
     resize: none;
 }
 .l-input-yellow {
+    padding: 10px;
+    box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -791,6 +801,8 @@ section {
     border-bottom: var(--lip-yellowColor) 3px solid;
 }
 .l-textarea-yellow {
+    padding: 10px;
+    box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -801,6 +813,8 @@ section {
     resize: none;
 }
 .l-input-green {
+    padding: 10px;
+    box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -811,6 +825,8 @@ section {
     border-bottom: var(--lip-greenColor) 3px solid;
 }
 .l-textarea-green {
+    padding: 10px;
+    box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
