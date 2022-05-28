@@ -250,10 +250,11 @@ br {
 /* l-container system */
 
 .l-container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    width:100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 @media (min-width: 768px) {
@@ -732,4 +733,100 @@ section {
 
 .l-border-radius {
     border-radius: 25px;
+}
+
+/* .l-forms */
+
+*{
+    outline:none;
+}
+
+.l-input-red {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: var(--lip-redColor) 3px solid;
+}
+.l-textarea-red {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    border-bottom: var(--lip-redColor) 3px solid;
+    resize: none;
+}
+.l-input-blue {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: var(--lip-blueColor) 3px solid;
+}
+.l-textarea-blue {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    border-bottom: var(--lip-blueColor) 3px solid;
+    resize: none;
+}
+.l-input-yellow {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: var(--lip-yellowColor) 3px solid;
+}
+.l-textarea-yellow {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    border-bottom: var(--lip-yellowColor) 3px solid;
+    resize: none;
+}
+.l-input-green {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: var(--lip-greenColor) 3px solid;
+}
+.l-textarea-green {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    border-bottom: var(--lip-greenColor) 3px solid;
+    resize: none;
+}
+
+/* l-card */
+
+.l-card {
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
 }
